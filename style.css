@@ -1,0 +1,44 @@
+*{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+#content {
+    width: 500px;
+    margin: auto;
+}
+
+#arrowTop {
+    visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+    font-weight: 700;
+    position:fixed;
+    bottom: 30px;
+    right: 20px;
+    cursor: pointer;
+    border: 3px solid black;
+    border-radius: 100% ;
+    width: 50px;
+    height: 50px;
+    background: rgb(255, 255, 255);
+}
+#arrowDown {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+    font-weight: 700;
+    position:fixed;
+    bottom: 10px;
+    left: 10px;
+    cursor: pointer;
+    border: 3px solid black;
+    border-radius: 100% ;
+    width: 50px;
+    height: 50px;
+    background: rgb(255, 255, 255);
+}
